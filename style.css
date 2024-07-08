@@ -144,7 +144,7 @@
   
   /* Toggle menu */
   #menu-toggle {
-    display: none;
+    display: block;
   }
   
   .menu-icon {
@@ -152,6 +152,7 @@
     font-size: 30px;
     cursor: pointer;
   }
+
   #hero {
     background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAzL3Jhd3BpeGVsX29mZmljZV8yNl9taW5pbWFsX2Fic3RyYWN0X2JhY2tncm91bmRfd2l0aF9tYWtldXBfb25fcF83OTNiMWQxYS03NzM3LTQxM2MtOTc3My1iOWUxM2ViNDZhZjNfMS5qcGc.jpg");
     height: 90vh;
@@ -289,7 +290,7 @@
   }
   
   #product1 .pro:hover {
-    transform: rotate(10deg);
+    transform: translateY(-10px);
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
   }
   
@@ -422,7 +423,7 @@
   
   #banner3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 0 80px;
   }
