@@ -208,17 +208,21 @@
   }
   
   #hero button {
-    background-image: url("img/button.png");
+    /* background-image: url("img/button.png"); */
     background-color: transparent;
     color: #088178;
     border: 0;
-    padding: 14px 80px 14px 65px;
+    padding: 14px 32px 14px 32px;
     background-repeat: no-repeat;
     font-weight: 700;
     cursor: pointer;
     font-size: 15px;
   }
-  .abt{
+  #hero button:hover{
+    color: #000;
+    background: pink;
+  }
+  /* .abt{
     background: rgba(0, 0, 0, 0.4) url("https://i.pinimg.com/564x/4e/85/cf/4e85cf04f075bed6484abb3ead73feb7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,7 +239,34 @@
   }
   .abt h1{
     color: pink;
-  }
+  } */
+  .about {
+    position: relative;
+}
+
+.abt {
+    background: rgba(0, 0, 0, 0.4) url("https://i.pinimg.com/564x/4e/85/cf/4e85cf04f075bed6484abb3ead73feb7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-blend-mode: darken;
+    padding: 50px;
+}
+
+.abt p {
+    color: white;
+    font-size: 18px;
+}
+
+.abt span {
+    color: hotpink;
+    font-weight: 400;
+}
+
+.abt h1 {
+    color: pink;
+}
+
   #feature {
     display: flex;
     align-items: center;
@@ -313,7 +344,7 @@
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
-    border: 1px solid #cce7d0;
+    border: 1px solid #e8f6e8;
     border-radius: 25px;
     cursor: pointer;
     /* box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2); */
