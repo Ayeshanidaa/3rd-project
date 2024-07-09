@@ -1,3 +1,31 @@
+@media (max-width: 768px) {
+  .navbar {
+      display: none; /* Mobile view mein hidden */
+      flex-direction: column;
+  }
+  
+  #menu-toggle:checked + .menu-icon + .menu {
+      display: flex;
+  }
+
+  .menu-icon {
+      display: block;
+      color: hotpink; /* Mobile view mein show */
+  }
+
+  .navbar li {
+      display: block;
+      text-align: center;
+  }
+
+  .navbar a {
+      display: block;
+      padding: 15px;
+      border-bottom: 1px solid #ccc;
+  }
+}
+
+
 @media (max-width:790px) {
     #navbar{
       display: flex;
@@ -115,7 +143,7 @@
       background-position: 55%;
     }
     #feature {
-      justify-content: space-between;
+      justify-content: space-evenly;
     }
     #feature .fe-box {
       width: 120px;

@@ -142,7 +142,7 @@
     left: 20px;
   }
   
-  /* Toggle menu */
+  /* Toggle menu
   #menu-toggle {
     display: none;
   }
@@ -151,7 +151,40 @@
     display: none;
     font-size: 30px;
     cursor: pointer;
-  }
+  } */
+  
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* Desktop view mein hidden */
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+
+
   
   #hero {
     background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAzL3Jhd3BpeGVsX29mZmljZV8yNl9taW5pbWFsX2Fic3RyYWN0X2JhY2tncm91bmRfd2l0aF9tYWtldXBfb25fcF83OTNiMWQxYS03NzM3LTQxM2MtOTc3My1iOWUxM2ViNDZhZjNfMS5qcGc.jpg");
@@ -206,7 +239,7 @@
   #feature {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
   
